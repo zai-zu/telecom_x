@@ -1,0 +1,32 @@
+# Ignore files and directories in a Python project
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+venv/
+env/
+.venv/
+
+# environment variables
+.env
+
+
+# Notebooks (checkpoints)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# results and output directories
+results/
+
+output/
+
+
+# Data files 
+.DS_Store
+Thumbs.db
+
+# Configuration files
+.vscode/
