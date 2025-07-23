@@ -1,1 +1,125 @@
-# Challenge Alulara Telecolecom X 1.0
+
+# 🚀 **Telecom X - Customer Churn Analysis** 📊
+
+Welcome to the **Telecom X - Customer Churn Analysis** project! As part of the Data Science team, our goal is to understand the factors contributing to customer churn and help develop strategies to reduce it.
+
+### **Objective** 🎯
+
+The project aims to analyze customer churn data from **Telecom X**, which is facing a high rate of customer cancellations. By analyzing this data, we’ll uncover insights into customer behavior and identify key drivers of churn, ultimately supporting the development of **predictive models** and **retention strategies**.
+
+---
+
+## **Key Features** 💡
+
+* **ETL Process**: Import, clean, transform, and load data efficiently from an API.
+* **Exploratory Data Analysis (EDA)**: Deep dive into the dataset to uncover trends and patterns.
+* **Data Visualization**: Use of visual tools like **bar charts**, **heatmaps**, and **lollipop charts** to display churn patterns.
+* **Churn Analysis**: Detailed statistical analysis to identify high-risk customers and retention strategies.
+
+---
+
+## **Project Structure** 📁
+
+*  Here´s a breakdown of the project structure: 
+
+
+```
+├── data/
+│   ├── processed/
+│   │   └── custumers_norm_processed.csv  # Processed data for analysis
+│   ├── raw/
+│   │   └── custumers_norm.csv  # Raw data
+├── notebooks/
+│   ├── etl.ipynb  # ETL pipeline notebook
+├── reports/
+│   ├── churn_bar_plot.png  # Bar plot for churn distribution
+│   ├── churn_correlation_heatmap.png  # Heatmap for churn correlation
+│   ├── churn_feature_correlation_lollipop.png  # Lollipop chart for feature correlation
+│   ├── churn_pie_chart.png  # Pie chart for churn distribution
+│   ├── churn_top_categories_subplots.png  # Subplots for churn by categories
+│   ├── final_report.md  # Final report in Markdown
+├── src/
+│   ├── _init__.py  # Initialization of the package
+│   ├── analytics.py  # Main analysis script
+│   ├── churn_categorical.py  # Categorical churn analysis
+│   ├── correlation_heatmap.py  # Correlation heatmap generation
+│   ├── correlation_lollipop.py  # Lollipop plot for correlation
+│   ├── distribution_evation.py  # Churn distribution analysis
+│   ├── top_churn_heat_map.py  # Top churn features heatmap
+│   ├── top_churn_subplots.py  # Top churn categories subplots
+├── .gitignore  # Git ignore file
+└── README.md  # This file
+```
+
+---
+
+## **Installation & Setup** ⚙️
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/Telecom-X.git
+   ```
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd Telecom-X
+   ```
+
+3. **Install dependencies**:
+   Make sure you have Python 3.6+ and pip installed. Then run:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   **Required libraries** include:
+
+   * `pandas`
+   * `matplotlib`
+   * `seaborn`
+   * `numpy`
+
+4. **Run the notebooks**:
+   Open the `etl.ipynb` notebook for the ETL process or run the analysis script in `analytics.py`.
+
+---
+
+## **How to Run the Project** 🏃‍♂️
+
+* **ETL Process**: Start by running the `etl.ipynb` notebook to load and preprocess the data.
+* **Data Analysis**: After preprocessing, run the Python scripts in the `src/` folder to perform **EDA**, generate visualizations, and analyze churn.
+* **Reports**: Once the analysis is complete, check the `reports/` folder for the **visualizations** and **final report**.
+
+---
+
+## **Key Insights from the EDA** 📊
+
+* **Churn Rate**: 26.5% of customers have churned (left the service), and 73.5% have stayed.
+* **Contract Type**: Customers with **month-to-month contracts** are more likely to churn, with a churn rate of **42.71%**.
+* **Payment Methods**: Customers paying via **electronic check** have a higher churn rate (**45.29%**).
+* **Internet Service**: **Fiber optic** internet customers have a higher churn rate (**41.89%**), despite its popularity.
+* **Customer Tenure**: **Longer tenure** is negatively correlated with churn, meaning customers who stay longer are less likely to leave.
+* **Charges**: Customers with lower **Total Charges** and shorter **tenure** tend to churn more.
+
+---
+
+## **Conclusion & Recommendations** 💡
+
+Based on the analysis, here are some recommendations to reduce churn:
+
+* **Focus on month-to-month contract customers** and encourage them to switch to longer-term plans.
+* **Investigate payment issues** with electronic checks and offer alternatives to improve retention.
+* **Improve fiber optic service** and offer incentives to customers who might be dissatisfied.
+* **Loyalty programs** for long-term customers, especially those with high charges and tenure, could help reduce churn.
+
+---
+
+## **Contributing**  🫱🏽‍🫲🏽✨
+
+Feel free to fork this project and contribute improvements, fixes, or additional insights. If you want to help out or report an issue, you can submit a **pull request** or **open an issue** on GitHub.
+
+---
+[Read the report final here](\reports\final_report.md)
+
