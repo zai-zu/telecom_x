@@ -1,4 +1,3 @@
-
 # 🚀 **Telecom X - Customer Churn Analysis** 📊
 
 Welcome to the **Telecom X - Customer Churn Analysis** project! As part of the Data Science team, our goal is to understand the factors contributing to customer churn and help develop strategies to reduce it.
@@ -20,7 +19,7 @@ The project aims to analyze customer churn data from **Telecom X**, which is fac
 
 ## **Project Structure** 📁
 
-*  Here s a breakdown of the project structure: 
+Here s a breakdown of the project structure: 
 
 
 ```
